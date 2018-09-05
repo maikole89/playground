@@ -1,0 +1,19 @@
+h1 {
+  color: rgba(0, 200, 100, 0.8);
+  /* border-color: purple;
+  border-width: 5px;
+  border-style: solid; */
+
+  border: 2px solid rgb(255, 100, 80);
+}
+
+ h4  {
+   background: rgb(255, 100, 80);
+ }
+
+body {
+  /* background: url(http://workshopcompanion.com/KnowHow/Design/Nature_of_Wood/1_Wood_Grain/1_Wood_Grain_Images/NOW_1_9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: pink;
+}
