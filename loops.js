@@ -28,6 +28,6 @@ console.log("print all numbers divisible by 5 and 50")
 
 for(var i = 5; i <= 50; i++) {
   if(i % 5=== 0 && i % 3 === 0) {
-    console.log(i);
+    console.log(i);b
   }
 }
