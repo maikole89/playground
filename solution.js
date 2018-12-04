@@ -1,36 +1,45 @@
-//isEven
+console.log("Connected")
 
-// function isEven(num) {
-//   if(num %2 === 0) {
-//     //return true if even
-//     return true;
-//   } else {
-//     //return false otherwise
-//     return false
-//   }
-// }
-
-function isEven(num) {
-  return num % 2 === 0;
-}
-
-function factorial(num) {
-  //define result variable
-  var result = 1;
-  //calculate factorial and store value in result
-  for(var i = 2;  i <= num; i++) {
-    result *= i
+function printReverse(arr) {
+  for(var i = arr.length - 1; i >= 0; i--) {
+    console.log(arr[i]);
   }
-  //return the result variable
-  return result
 }
 
-// factorial(4) 4 x 3 x 2 x 1
+printReverse([3,6,2,5])
 
+//*** isUniform*() ****
 
-function kebabToSnake(str) {
-  //replace all '-' with "_"'s
-  var newStr = str.replace(/-/g , "_");
-  //return str
-  return newStr 
+function isUniform(arr) {
+  var first = arr[0];
+  for(var i =  1; i < arr.length; i++) {
+    if(arr[i] !== first) {
+      return false;
+    }
+  }
+  return true;
 }
+
+// *** sumArray() ***
+
+function sumArray(arr) {
+  var total = 0;
+  arr.forEach(function(element){
+    total += element;
+  });
+  return total;
+}
+
+// ***max() ***
+
+function max(arr) {
+  var max = arr[0];
+  for(var i = 1; i < arr.length; i++) {
+    if(arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return max;
+}
+
+// *** forEach ***
